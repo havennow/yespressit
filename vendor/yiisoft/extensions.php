@@ -48,4 +48,32 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'yiidoc/yii2-redactor' => 
+  array (
+    'name' => 'yiidoc/yii2-redactor',
+    'version' => '2.0.1.0',
+    'alias' => 
+    array (
+      '@yii/redactor' => '/',
+    ),
+  ),
+  'yiisoft/yii2-shell' => 
+  array (
+    'name' => 'yiisoft/yii2-shell',
+    'version' => '2.0.0.0',
+    'alias' => 
+    array (
+      '@yii/shell' => $vendorDir . '/yiisoft/yii2-shell',
+    ),
+    'bootstrap' => 'yii\\shell\\Bootstrap',
+  ),
+  'vova07/yii2-console-runner-extension' => 
+  array (
+    'name' => 'vova07/yii2-console-runner-extension',
+    'version' => '0.1.0.0',
+    'alias' => 
+    array (
+      '@vova07/console' => $vendorDir . '/vova07/yii2-console-runner-extension',
+    ),
+  ),
 );

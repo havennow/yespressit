@@ -9,8 +9,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
     );
 
@@ -18,12 +20,18 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\shell\\' => 10,
+            'yii\\redactor\\' => 13,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+        ),
+        'v' => 
+        array (
+            'vova07\\console\\' => 15,
         ),
         'p' => 
         array (
@@ -33,6 +41,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         array (
             'cebe\\markdown\\' => 14,
         ),
+        'X' => 
+        array (
+            'XdgBaseDir\\' => 11,
+        ),
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
@@ -41,6 +53,7 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\DomCrawler\\' => 29,
@@ -51,8 +64,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         ),
         'P' => 
         array (
+            'Psy\\' => 4,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'PhpParser\\' => 10,
         ),
         'G' => 
         array (
@@ -79,6 +94,14 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\shell\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-shell',
+        ),
+        'yii\\redactor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiidoc/yii2-redactor',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -103,6 +126,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'vova07\\console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vova07/yii2-console-runner-extension',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -112,6 +139,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'XdgBaseDir\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -124,6 +155,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
         'Symfony\\Component\\Finder\\' => 
         array (
@@ -153,6 +188,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         array (
             0 => __DIR__ . '/..' . '/symfony/browser-kit',
         ),
+        'Psy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -160,6 +199,10 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -193,6 +236,17 @@ class ComposerStaticInit52b28b5713c4c915deaa4b7e59ec2117
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'J' => 
+        array (
+            'JakubOnderka\\PhpConsoleHighlighter' => 
+            array (
+                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
+            ),
+            'JakubOnderka\\PhpConsoleColor' => 
+            array (
+                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
             ),
         ),
         'H' => 
